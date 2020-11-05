@@ -13,10 +13,10 @@ public class Application {
         Circle circle1 = new Circle(2.1f,2.5f);
         Circle circle2 = new Circle(3.1f,2.9f);
         Circle circle3 = new Circle(4.1f,1.9f);
-        Triangle triangle1 = new Triangle(3.1f,5.2f);
-        Triangle triangle2 = new Triangle(67.1f,5.2f);
-        Triangle triangle3 = new Triangle(55.1f,9.2f);
-        Triangle triangle4 = new Triangle(55.1f,39.2f);
+        Triangle triangle1 = new Triangle(3.1f,5.2f,1.2f,3.2f,4.5f);
+        Triangle triangle2 = new Triangle(67.1f,5.2f,1.2f,9.2f,4.5f);
+        Triangle triangle3 = new Triangle(55.1f,9.2f,1.2f,3.2f,4.5f);
+        Triangle triangle4 = new Triangle(55.1f,39.2f,1.2f,3.2f,4.5f);
         Rectangle rectangle1 = new Rectangle(2.3f,4.5f);
         Rectangle rectangle2 = new Rectangle(6.3f,8.5f);
         Rectangle rectangle3 = new Rectangle(5.3f,14.5f);
@@ -34,8 +34,12 @@ public class Application {
         
         
      Application.MaxS(shapes);
+     
+     System.out.println("Периметр первого треугольника " + triangle1.getPerimeter());
+     System.out.println("Периметр второго треугольника " + triangle2.getPerimeter());
       
-       
+     System.out.println("Длина первой окружности " + circle1.getLength());
+     System.out.println("Длина второй окружности " + circle2.getLength());
         /*
          * TODO: Выполнить действия над массивом 'shapes'
          *
