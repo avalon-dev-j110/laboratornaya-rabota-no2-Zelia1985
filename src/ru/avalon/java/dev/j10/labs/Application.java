@@ -37,6 +37,10 @@ public class Application {
      
      System.out.println("Периметр первого треугольника " + triangle1.getPerimeter());
      System.out.println("Периметр второго треугольника " + triangle2.getPerimeter());
+     
+     System.out.println("Периметр первого прямоугольника " + rectangle1.getPerimeter());
+     System.out.println("Периметр второго прямоугольника " + rectangle2.getPerimeter());
+     
       
      System.out.println("Длина первой окружности " + circle1.getLength());
      System.out.println("Длина второй окружности " + circle2.getLength());

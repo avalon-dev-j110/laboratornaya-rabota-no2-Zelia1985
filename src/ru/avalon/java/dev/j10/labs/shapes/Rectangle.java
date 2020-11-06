@@ -34,10 +34,12 @@ public class Rectangle implements Polygon{
         this.storona2 = storona2;
     }
     private float SRectangle;
+    private float perRectangle;
 
     @Override
     public float getPerimeter() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        perRectangle = (storona1 + storona2) * 2;
+        return perRectangle;
     }
 
     /*
