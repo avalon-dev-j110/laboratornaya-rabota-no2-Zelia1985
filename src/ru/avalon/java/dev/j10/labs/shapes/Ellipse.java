@@ -7,10 +7,10 @@ package ru.avalon.java.dev.j10.labs.shapes;
  * быть получена как пересечение плоскости и кругового
  * цилиндра или как ортогональная проекция окружности на
  * плоскость.
- *
+ *тест
  * @see <a href="https://ru.wikipedia.org/wiki/%D0%AD%D0%BB%D0%BB%D0%B8%D0%BF%D1%81">Эллипс</a>
  */
-public interface Ellipse {
+public interface Ellipse extends Shape {
 
     /*
      * TODO: Закончить определение интерфейса 'Ellipse'
